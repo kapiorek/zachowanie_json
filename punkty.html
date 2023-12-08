@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Kalkulator punktów</title>
+  <script>
+    async function fetchAndDisplayData() {
+      try {
+        const response1 = await fetch('dane_negatywne.json');
+        const negativeData = await response1.json();
+
+        const response2 = await fetch('dane_pozytywne.json');
+        const positiveData = await response2.json();
+
+        const select = document.getElementById('przewinienia');
+
+        
+        for (const key in negativeData) {
+          const option = document.createElement('option');
+          option.value = `-${negativeData[key].punkty}`;
+          option.textContent = `Negatywne: ${negativeData[key].pozycja}`;
+          select.appendChild(option);
+        }
+
+        for (const key in positiveData) {
+          const option = document.createElement('option');
+          option.value = positiveData[key].punkty;
+          option.textContent = `Pozytywne: ${positiveData[key].pozycja}`;
+          select.appendChild(option);
+        }
+      } catch (error) {
+        console.error('Wystąpił błąd podczas pobierania danych:', error);
+      }
+    }
+
+    function calculatePoints() {
+      const pointsInput = document.getElementById('pointsInput');
+      const selectedPosition = document.getElementById('przewinienia');
+      const resultDisplay = document.getElementById('result');
+
+      const points = parseInt(pointsInput.value);
+      const selectedPoints = parseInt(selectedPosition.value);
+
+      if (isNaN(selectedPoints)) {
+        resultDisplay.textContent = 'Proszę wybrać jedną pozycję z listy.';
+        return;
+      }
+
+      const updatedPoints = points + selectedPoints;
+      resultDisplay.textContent = `Aktualna liczba punktów: ${updatedPoints}`;
+    }
+  </script>
+</head>
+<body onload="fetchAndDisplayData()">
+  <h1>Kalkulator punktów</h1>
+  <label for="pointsInput">Wprowadź liczbę punktów:</label>
+  <input type="number" id="pointsInput">
+  <br><br>
+  <label for="przewinienia">Przewinienia:</label>
+  <select id="przewinienia" onchange="calculatePoints()">
+    <option value="">Wybierz pozycję</option>
+  </select>
+  <br><br>
+  <button onclick="calculatePoints()">Oblicz</button>
+  <p id="result"></p>
+</body>
+</html>

@@ -1,0 +1,98 @@
+{
+  "n0": {
+    "pozycja": "Palenie",
+    "punkty": 50
+  },
+  "n1": {
+    "pozycja": "Nagana Rady Pedagogicznej",
+    "punkty": 400
+  },
+  "n2": {
+    "pozycja": "Nagana Dyrektora",
+    "punkty": 300
+  },
+  "n3": {
+    "pozycja": "Upomnienie Dyrektora",
+    "punkty": 150
+  },
+  "n4": {
+    "pozycja": "Nagana wychowawcy",
+    "punkty": 100
+  },
+  "n5": {
+    "pozycja": "Upomnienie wychowawcy",
+    "punkty": 50
+  },
+  "n6": {
+    "pozycja": "Uwaga za naganne zachowanie w zajęciach",
+    "punkty": 15
+  },
+  "n7": {
+    "pozycja": "Uwaga za naganne zachowanie w czasie zbiorowych imprez",
+    "punkty": 30
+  },
+  "n8": {
+    "pozycja": "Podrabianie dokumentów szkolnych",
+    "punkty": 100
+  },
+  "n9": {
+    "pozycja": "Wandalizm",
+    "punkty": 20
+    
+  },
+  "n10": {
+    "pozycja": "Aroganckie zachowanie",
+    "punkty": 20
+    
+  },
+  "n11": {
+    "pozycja": "Zaczepki słowne i fizyczne",
+    "punkty": 50
+    
+  },
+  "n12": {
+    "pozycja": "Wulgarne słownictwo",
+    "punkty": 20
+  },
+  "n13": {
+    "pozycja": "Niewykonywanie poleceń nauczyciela i innych pracowników szkoły",
+    "punkty": 20
+  },
+  "n14": {
+    "pozycja": "Niewywiązanie się ze zobowiązań",
+    "punkty": 20
+  },
+  "n15": {
+    "pozycja": "Niewywiązanie się ze zobowiązań reprezentantów szkoły",
+    "punkty": 30
+  },
+  "n16": {
+    "pozycja": "Nieprzestrzeganie przepisów BHP",
+    "punkty": 15
+  },
+  "n17": {
+    "pozycja": "Za każdą opuszczoną godzinę bez usprawiedliwienia",
+    "punkty": 3
+  },
+  "n18": {
+    "pozycja": "Za każdą opuszczoną godzinę bez usprawiedliwienia w dniu odrabiania zajęć szkolnych",
+    "punkty": 5
+  },
+  "n19": {
+    "pozycja": "Za zbiorową ucieczkę z zajęć lekcyjnych",
+    "punkty": 20
+  },
+  "n20": {
+    "pozycja": "Spoźnienia",
+    "punkty": 1
+  },
+  "n21": {
+    "pozycja": "Zasmiecanie szkoły i jej otoczenia",
+    "punkty": 10
+  },
+  "n22": {
+    "pozycja": "Korzystanie z telefonu komórkowego w czasie lekcji",
+    "punkty": 30
+    
+  }
+}

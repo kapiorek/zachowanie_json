@@ -1,0 +1,57 @@
+{
+  "p0": {
+    "pozycja": "Udzial w olimpiadzie przedmiotowej",
+    "punkty": 50
+    
+  },
+  "p1": {
+    "pozycja": "Udzial w konkursie szkolnym udzial",
+    "punkty": 25
+  },
+  "p2": {
+    "pozycja": "Udzial w konkursie pozaszkolnym",
+    "punkty": 50
+  },
+  "p3": {
+    "pozycja": "Udzial w zawodach sportowych",
+    "punkty": 30
+  },
+  "p4": {
+    "pozycja": "Funkcje spoleczne w klasie",
+    "punkty": 20
+  },
+  "p5": {
+    "pozycja": "Praca spoleczna",
+    "punkty": 5
+    
+  },
+  "p6": {
+    "pozycja": "Uczestnictwo w zorganizowanych zajeciach pozalekcyjnych",
+    "punkty": 20
+  },
+  "p7": {
+    "pozycja": "Honorowe krwiodawstwo, wolontariat za kazda akcje",
+    "punkty": 30
+  },
+  "p8": {
+    "pozycja": "Frekwencja od 90 %",
+    "punkty": 20
+    
+  },
+  "p9": {
+    "pozycja": "Do dyspozycji wychowawcow klas programowo najwyzszych po konsultacji z zespolem nauczycieli",
+    "punkty": 30
+  },
+  "p10": {
+    "pozycja": "Stosunek do obowiazkow szkolnych po konsultacji z zespolem nauczycieli",
+    "punkty": 30
+  },
+  "p11": {
+    "pozycja": "Kultura osobista po konsultacji z zespolem nauczycieli",
+    "punkty": 30
+  },
+  "p12": {
+    "pozycja": "Pomoc kolezenska uzgodniona z wychowawca klasy",
+    "punkty": 20
+  }
+}
